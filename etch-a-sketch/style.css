@@ -1,0 +1,65 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(35, 34, 34);
+    padding: 1px;
+    font-size:x-large;
+    color: white;
+}
+
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+button{
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+
+button:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#color{
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    border: none;
+    color: white;
+    height:100px;
+    width: 100px;
+    box-shadow: 50px;
+}
+
+#erase{
+    background-color: white;
+    border: none;
+    height:100px;
+    width:100px;
+    box-shadow: 50px;
+}
+
+p{
+    padding-bottom: 0;
+}
+.grid{
+    background-color: white;
+    width: 640px;
+    height:640px;
+}
